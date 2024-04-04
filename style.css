@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./img/madera.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 48px;
+  font-family: cursive;
+  padding: 10px 16px 10px 16px;
+  border-radius: 45px;
+  background-color: rgba(10, 10, 10, 0.349);
+}
+
+span {
+  background: #f21109;
+  background: -webkit-linear-gradient(135deg, #f9d10a 0%, #f21109 100%);
+  background: linear-gradient(135deg, #f9d10a 0%, #f21109 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 700;
+}
+
+.pizzaContainer {
+  margin-bottom: 32px;
+  width: 400px;
+  height: 450px;
+  background-color: rgba(5, 4, 4, 0.365);
+  border: 1px solid white;
+  border-radius: 45px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pizzaInput,
+.pizzaBtn {
+  margin-bottom: 30px;
+}
+
+.pizzaInput {
+  border: 1px solid white;
+  border-radius: 24px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #3b3b3b;
+  color: white;
+  padding: 15px 10px;
+}
+
+.pizzaBtn {
+  background: #282828;
+  color: white;
+  font-weight: 500;
+  outline: none;
+  border: 0px solid;
+  padding: 10px 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.pizzaBtn:hover {
+    background-color: #3b3b3b;
+}
+
+.pizzaImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 45px;
+    margin-bottom: 20px;
+    display: none;
+    border: 4px dashed #f9d10a ;
+}
+
+.card {
+    width: 400px;
+    height: 100px;
+    background-color: rgba(5, 4, 4, 0.365);
+    border: 1px solid white;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: cursive;
+    padding: 16px;
+}
+
+.error {
+    width: 400px;
+    height: 100px;
+    background-color: rgba(5, 4, 4, 0.365);
+    border: 1px solid white;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: cursive;
+    padding: 16px;
+}
